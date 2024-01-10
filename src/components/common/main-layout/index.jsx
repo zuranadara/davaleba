@@ -1,7 +1,7 @@
 import React from "react";
 import line from '../../../assets/common/line.svg';
 import doctor from '../../../assets/common/doctor.svg';
-import ellipse from '../../../assets/common/ellipse.svg'
+import ellipse from '../../../assets/common/ellipse.svg';
 import './index.css';
 
 export const MainLayout = () => {
