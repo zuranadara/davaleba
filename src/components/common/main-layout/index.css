@@ -1,0 +1,87 @@
+.main-layout {
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    
+}
+
+.left-text {
+    width: 572px;
+    height: 166px;
+    font-size: 62px;
+    font-weight: 700;
+    color: #021526;
+    display: flex;
+    flex-direction: column;
+    margin-top: 156px;
+}
+
+.doctor-img {
+    width: 1198px;
+    height: 799px;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    left: 350px;
+}
+
+.ellipse-border {
+   position: absolute;
+   top: 280px;
+   margin-left: 520px;
+}
+
+.line-img {
+    rotate: (2.14deg);
+    position: absolute;
+    width: 278px;
+    height: 20.422px;
+    margin-top: 155px;
+}
+
+.search{
+    width: 590px;
+    height: 73px;
+    border-radius: 50px;
+    border: none;
+    background-color:#fff;
+    text-align: center;
+    position: absolute;
+}
+
+
+.search-container {
+    width: 590px;
+    height: 73px;
+    top: 180px;
+    margin-top: 307px;
+    position: absolute;
+    z-index: 1;
+}
+
+.search-icon {
+    width: 56px;
+    height: 56px;
+    top: 8px;
+    left: 525px;
+    position: absolute;
+    background-image: url('../../../assets/common/search.png');
+    background-size: cover;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+.favorite {
+    color: var(--com-color);
+}
+
+.left-second-text {
+    width: 419px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #163048;
+    margin-top: 19px;
+}

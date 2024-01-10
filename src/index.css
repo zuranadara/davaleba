@@ -1,0 +1,51 @@
+@font-face {
+  font-family: myFont;
+  src: url('./assets/fonts/IBMPlexSans-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url('./assets/fonts/IBMPlexSans-Medium.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url('./assets/fonts/IBMPlexSans-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url('./assets/fonts/IBMPlexSans-Regular.ttf');
+  font-weight: 400;
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color:#E1EEFF; 
+  --com-color: #0360D9;
+}
+
+.common-color {
+  background-color: var(--com-color);
+}
+
+
+body {
+  background-color: var(--bg-color);
+  font-family: myFont;
+}
+
+
+
+
+  
